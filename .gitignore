@@ -1,2 +1,3 @@
 test/config/test.ini
-netbeans/
+nbproject/
+build/
