@@ -17,4 +17,8 @@
 		<mkdir dir="${build}"/>
 	</target>
 	
+	<target name="build" depends="init">
+		
+	</target>
+	
 </project>
