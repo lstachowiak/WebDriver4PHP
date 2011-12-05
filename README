@@ -7,6 +7,10 @@ It works using JsonWireProtocol to comunicate with Selenium server.
 
 Library is under heavy development! Nothing here is final!
 
-
+Requirements:
+	- PHP 5.2.7+
+	- PHPUnit 3.6
+	- JDK 1.5+
+	- Apache Ant
 
 This library is a fork of the "php-webdrivers-bindings" available at http://code.google.com/p/php-webdriver-bindings/.

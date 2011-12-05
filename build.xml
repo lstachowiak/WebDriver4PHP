@@ -9,6 +9,8 @@
 	<property name="src" location="src"/>
 	<property name="build" location="build"/>
 	
+	<import file="library/webdriver4php/resources/ant-webdriver4php.xml"/>
+	
 	<target name="clean">
 		<delete dir="${build}" failonerror="false" />
 	</target>
