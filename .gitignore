@@ -1,3 +1,4 @@
 test/config/test.ini
 nbproject/
 build/
+resources/bin/selenium-server.jar
