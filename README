@@ -5,7 +5,7 @@ This is library for writing functional Selenium 2 Webdriver tests in Php.
 It works using JsonWireProtocol to comunicate with Selenium server.
 
 
-
+Library is under heavy development! Nothing here is final!
 
 
 
