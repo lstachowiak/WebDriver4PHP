@@ -1,7 +1,12 @@
 WebDriver4PHP
 
+
 This is library for writing functional Selenium 2 Webdriver tests in Php.
 It works using JsonWireProtocol to comunicate with Selenium server.
 
 
-This is a fork of the "php-webdrivers-bindings" library available at http://code.google.com/p/php-webdriver-bindings/.
+
+
+
+
+This library is a fork of the "php-webdrivers-bindings" available at http://code.google.com/p/php-webdriver-bindings/.
