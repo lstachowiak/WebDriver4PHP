@@ -6,13 +6,18 @@
         Sample build file
 	</description>
 	
-	<property name="src" location="src"/>
-	<property name="build" location="build"/>
+	<property name="src" location="src" />
+	<property name="build" location="build" />
+	<property name="config" location="config" />
 	
 	<import file="library/webdriver4php/resources/ant-webdriver4php.xml"/>
 	
 	<target name="clean">
 		<delete dir="${build}" failonerror="false" />
+	</target>
+	
+	<target name="init-project">
+		<copy file="${config}/config-template.ini" toFile="${config}/config.ini" />
 	</target>
 	
 	<target name="init">
