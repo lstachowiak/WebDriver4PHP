@@ -8,7 +8,7 @@ It works using JsonWireProtocol to comunicate with Selenium server.
 Library is under heavy development! Nothing here is final!
 
 Requirements:
-	- PHP 5.2.7+
+	- PHP 5.2.7+ (extensions: curl)
 	- PHPUnit 3.6
 	- JDK 1.5+
 	- Apache Ant
