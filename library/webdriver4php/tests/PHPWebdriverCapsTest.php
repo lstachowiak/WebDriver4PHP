@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../phpwebdriver/WebDriver.php';
+require_once dirname(__FILE__) . '/../src/WebDriver.php';
 
 /**
  * 

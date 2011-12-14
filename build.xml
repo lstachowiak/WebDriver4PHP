@@ -18,6 +18,7 @@
 	
 	<target name="init-project">
 		<copy file="${config}/config-template.ini" toFile="${config}/config.ini" />
+		<copy file="${config}/phpunit.xml.dist" toFile="${config}/phpunit.xml" />
 	</target>
 	
 	<target name="init">
@@ -26,6 +27,14 @@
 	
 	<target name="build" depends="init">
 		
+	</target>
+	
+	
+	<target name="test">
+		<exec dir="${basedir}" executable="phpunit">
+			<arg line="--configuration config/phpunit.xml
+				 " />
+		</exec>
 	</target>
 	
 </project>

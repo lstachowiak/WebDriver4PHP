@@ -2,8 +2,10 @@
 
 <project name="WebDriver4PHP" default="build">
     
-	<property name="selenium-server-url" value="http://selenium.googlecode.com/files/selenium-server-standalone-2.14.0.jar" />
-	<property name="selenium-server-dest" value="resources/bin/selenium-server.jar" />
+	<property name="selenium-server-url" 
+		value="http://selenium.googlecode.com/files/selenium-server-standalone-2.14.0.jar" />
+	<property name="selenium-server-dest" 
+		value="resources/bin/selenium-server.jar" />
 	
 	
 	<target name="w4p-download-selenium-server">

@@ -3,3 +3,4 @@ nbproject/
 build/
 resources/bin/selenium-server.jar
 config/config.ini
+config/phpunit.xml
